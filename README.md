@@ -6,7 +6,7 @@ See the [layers directory](layers) for more details on the contents of various l
 
 ## Current Status
 
-Tasmanian map layers are presently (February 2019) removed while *nswtopo* version 2 is in beta, but will be re-instated for the final release.
+Tasmanian map layers are temporarily (February 2019) removed for *nswtopo* version 2.0.0, but will be re-instated for next patch release.
 
 # Installation
 
