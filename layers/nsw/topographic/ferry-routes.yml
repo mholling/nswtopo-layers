@@ -1,0 +1,13 @@
+type: Feature
+features:
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Transport_Theme/MapServer
+  layer: RoadSegment
+  where:
+  - operationalstatus NOT IN (3,8)
+  - roadontype = 8
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Transport_Theme/MapServer
+  layer: FerryRoute
+  where: operationalstatus NOT IN (3,8)
+fence: true
+stroke: "#4985DF"
+stroke-width: 0.4

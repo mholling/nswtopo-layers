@@ -1,7 +1,7 @@
 type: Feature
 features:
-  source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPIMap/MapServer
-  layer: Contour_10m
+  source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Elevation_and_Depth_Theme/MapServer
+  layer: Contour
   category:
   - relevance
   - classsubtype

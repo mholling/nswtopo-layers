@@ -1,9 +1,10 @@
 type: Feature
 features:
-- source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPIMap/MapServer
-  layer: Swamps_LSI
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Physiography_Category/MapServer
+  layer: DLSArea
   category: classsubtype
   where: classsubtype IN (8,9)
+# TODO: use portal.spatial.nsw.gov.au
 - source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/POI/MapServer/0
   where: poitype = 'Swamp'
   draw: false

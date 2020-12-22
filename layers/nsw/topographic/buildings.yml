@@ -1,19 +1,28 @@
 type: Feature
 features:
-- source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPIMap/MapServer
-  layer: Dwellings_Buildings
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Features_of_Interest_Category/MapServer
+  layer: GeneralCulturalPoint
+  where: classsubtype = 5
   category: small
-- source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPIMap/MapServer
-  layer: Building_Large
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Features_of_Interest_Category/MapServer
+  layer: GeneralCulturalArea
   where: classsubtype = 5
   category: large
-- source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/POI/MapServer/0
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Features_of_Interest_Category/MapServer
+  layer: BuildingComplexPoint
   where:
-  - poigroup = 1
-  - poitype = 'Homestead' OR (poitype = 'Community Facility' AND poiname LIKE '% HUT')
-  category: poitype
+  - generalname IS NOT NULL
+  - buildingcomplextype = 7 OR (buildingcomplextype = 0 AND generalname LIKE '% HUT')
+  category: buildingcomplextype
   draw: false
-  label: poiname
+  label: generalname
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Features_of_Interest_Category/MapServer
+  layer: GeneralCulturalPoint
+  where:
+  - generalculturaltype = 3
+  - generalname LIKE '% HUT'
+  category: small
+  label: generalname
 fill: "#808080"
 stroke: none
 symbol:
@@ -24,10 +33,13 @@ symbol:
     y: -0.25
     stroke: none
     fill: black
+small:
+  fence: 0.5
 labels:
   position: [right, above, below, left, aboveright, belowright, aboveleft, belowleft]
   margin: 1.0
-  format: "'%s'"
   font-family: Cambria, Times, serif
   font-style: italic
   font-size: 1.5
+  Homestead:
+    format: "'%s'"

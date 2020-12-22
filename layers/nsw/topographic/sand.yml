@@ -1,7 +1,7 @@
 type: Feature
 features:
-  source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPIMap/MapServer
-  layer: Cliffs_Reefs_Mangroves
+  source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Physiography_Category/MapServer
+  layer: DLSArea
   where: classsubtype IN (6,7)
   category: classsubtype
 Rock-Inland:

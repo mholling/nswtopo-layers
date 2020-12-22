@@ -1,10 +1,10 @@
 type: Feature
 features:
-- source: https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Hydrography/MapServer
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Water_Theme/MapServer
   layer: HydroArea
   category: perenniality
-- source: https://maps.six.nsw.gov.au/arcgis/rest/services/public/NSW_Hydrography/MapServer
-  layer: Oceans_Bays
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Water_Theme/MapServer
+  layer: FuzzyExtentWaterArea
   where: classsubtype = 3
   category: classsubtype
 order:

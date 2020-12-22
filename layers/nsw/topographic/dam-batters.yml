@@ -1,7 +1,7 @@
 type: Feature
 features:
-  source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPIMap/MapServer
-  layer: Building_Large
+  source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Features_of_Interest_Category/MapServer
+  layer: GeneralCulturalArea
   where: classsubtype = 10
 stroke: none
 fill: "#C0C0C0"

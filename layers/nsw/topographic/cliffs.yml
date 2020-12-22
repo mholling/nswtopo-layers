@@ -1,13 +1,14 @@
 type: Feature
 features:
-- source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPIMap/MapServer
-  layer: Cliffs_Reefs_Mangroves
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Physiography_Category/MapServer
+  layer: DLSArea
   where: classsubtype = 11
   category: classsubtype
-- source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPIMap/MapServer
-  layer: CliffTop_Levee
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Physiography_Category/MapServer
+  layer: DLSLine
   where: classsubtype = 1
   category: classsubtype
+# TODO: use portal.spatial.nsw.gov.au
 - source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/POI/MapServer/0
   where: poitype = 'Cliff'
   category: poitype

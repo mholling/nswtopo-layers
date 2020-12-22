@@ -1,3 +1,4 @@
+# # TODO: use portal.spatial.nsw.gov.au
 type: Feature
 features:
   source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/POI/MapServer/0
@@ -11,3 +12,4 @@ labels:
   font-style: normal
   font-size: 1.8
   letter-spacing: 0.1
+  remove: SNOWY MOUNTAINS

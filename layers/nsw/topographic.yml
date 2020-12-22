@@ -32,6 +32,7 @@
 - topographic/racetracks
 - topographic/fences
 - topographic/conveyors
+- topographic/ferry-routes
 - topographic/floodways
 - topographic/roads
 - topographic/road-labels
@@ -46,9 +47,10 @@
 - topographic/beacons
 - topographic/towers
 - topographic/yards-quarries-windmills
+- topographic/cableways
 - topographic/transmission-lines
 - topographic/state-border
-- topographic/relative-heights
+- topographic/relative-height-labels
 - topographic/geographic-line-labels
 - topographic/geographic-point-labels
 - topographic/place-labels

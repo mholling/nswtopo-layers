@@ -1,8 +1,9 @@
 type: Feature
 features:
-- source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPIMap/MapServer
-  layer: Damwall_Racetrack
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Features_of_Interest_Category/MapServer
+  layer: GeneralCulturalLine
   where: classsubtype = 5
+# TODO: use portal.spatial.nsw.gov.au
 - source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/POI/MapServer/0
   where: poitype = 'Breakwater'
   draw: false

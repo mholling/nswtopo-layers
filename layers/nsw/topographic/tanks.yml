@@ -1,7 +1,9 @@
 type: Feature
 features:
-  source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/RFS/MapServer
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Features_of_Interest_Category/MapServer
   layer: TankPoint
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Features_of_Interest_Category/MapServer
+  layer: TankArea
 stroke: black
 stroke-width: 0.1
 fill: white

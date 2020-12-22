@@ -1,0 +1,13 @@
+type: Feature
+features:
+  source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Transport_Theme/MapServer
+  layer: Cableway
+  where: operationalstatus IN (1,4,6)
+stroke: black
+stroke-width: 0.2
+endpoint:
+  line:
+    stroke: black
+    stroke-width: 0.2
+    y1: -0.5
+    y2: 0.5

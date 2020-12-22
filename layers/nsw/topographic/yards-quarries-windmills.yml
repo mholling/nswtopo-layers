@@ -1,7 +1,7 @@
 type: Feature
 features:
-  source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPIMap/MapServer
-  layer: Beacon_Tower
+  source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Features_of_Interest_Category/MapServer
+  layer: GeneralCulturalPoint
   where:
   - classsubtype = 4
   - generalculturaltype IN (8,9,11,12)

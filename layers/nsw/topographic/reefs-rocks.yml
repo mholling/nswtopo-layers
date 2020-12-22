@@ -1,16 +1,15 @@
 type: Feature
 features:
-- source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPIMap/MapServer
-  layer: Cliffs_Reefs_Mangroves
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Physiography_Category/MapServer
+  layer: DLSArea
   where: classsubtype IN (4,5)
   category: classsubtype
-- source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/POI/MapServer/0
-  where:
-  - poitype IN ('Reef', 'Rock Awash')
-  - poiname NOT LIKE '% LEVEE'
-  category: poitype
-  draw: false
-  label: poiname
+  label: generalname
+- source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Physiography_Category/MapServer
+  layer: DLSPoint
+  where: classsubtype IN (4,5)
+  category: classsubtype
+  label: generalname
 Reef:
   pattern:
     width: 14
@@ -40,6 +39,7 @@ Rock-Awash:
       stroke-width: 0.1
       d: M -0.5 0 L 0.5 0 M -0.25 0.433 L 0.25 -0.433 M -0.25 -0.433 L 0.25 0.433
 labels:
+  reduce: centroids
   font-family: Calibri, Arial, Helvetica, sans-serif
   font-style: normal
   font-size: 1.8

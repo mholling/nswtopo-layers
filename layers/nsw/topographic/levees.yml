@@ -1,7 +1,7 @@
 type: Feature
 features:
-  source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPIMap/MapServer
-  layer: CliffTop_Levee
+  source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Physiography_Category/MapServer
+  layer: DLSLine
   where: classsubtype = 4
 dupe: hatching
 stroke: black

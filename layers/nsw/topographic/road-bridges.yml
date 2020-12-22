@@ -1,6 +1,6 @@
 type: Feature
 features:
-- source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/RFS/MapServer
+  source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Transport_Theme/MapServer
   layer: RoadSegment
   where:
   - operationalstatus NOT IN (3,8)
@@ -10,8 +10,6 @@ features:
   - functionhierarchy
   - classsubtype
   - surface
-- fallback: true
-  source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/Guras/MapServer
 dupe: outline
 stroke-width: 0.4
 stroke-linecap: square

@@ -1,7 +1,7 @@
 type: Feature
 features:
-  source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPIMap/MapServer
-  layer: Railway_intunnel_LS
+  source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Transport_Theme/MapServer
+  layer: Railway
   where:
   - operationalstatus NOT IN (3,8)
   - classsubtype IN (1,2)
