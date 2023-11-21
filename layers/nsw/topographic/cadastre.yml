@@ -3,10 +3,10 @@ features:
 - source: https://portal.spatial.nsw.gov.au/server/rest/services/NSW_Land_Parcel_Property_Theme/MapServer
   layer: Lot
   where: classsubtype = 1
-- source: http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic/MapServer
-  layer: Urban Registered
-- source: http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic/MapServer
-  layer: Rural Registered
+# - source: http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic/MapServer
+#   layer: Urban Registered
+# - source: http://data.actmapi.act.gov.au/arcgis/rest/services/actmapi/basic/MapServer
+#   layer: Rural Registered
 opacity: 0.5
 stroke: "#777777"
 stroke-width: 0.05
