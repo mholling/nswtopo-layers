@@ -10,6 +10,8 @@ RunwayPerimeter:
 RunwayCentreline:
   stroke: "#989898"
   stroke-width: 0.7
+  preserve: true
 LandingGround:
   stroke: "#A8A8A8"
   stroke-width: 0.7
+  preserve: true

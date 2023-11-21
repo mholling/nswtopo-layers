@@ -6,3 +6,4 @@ features:
 fill: "#B3E6E4"
 stroke: "#4985DF"
 stroke-width: 0.12
+preserve: true

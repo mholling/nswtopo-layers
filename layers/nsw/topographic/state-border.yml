@@ -3,6 +3,7 @@ features:
   source: https://maps.six.nsw.gov.au/arcgis/rest/services/sixmaps/LPIMap/MapServer
   layer: State_Border
 opacity: 0.5
+preserve: true
 dupe: hatching
 stroke: black
 stroke-width: 0.3

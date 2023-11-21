@@ -17,6 +17,7 @@ features:
 CliffArea:
   fill: "#C8C8C8"
   stroke: none
+  preserve: true
 CliffTop:
   stroke: "#B04BA9"
   stroke-width: 0.2

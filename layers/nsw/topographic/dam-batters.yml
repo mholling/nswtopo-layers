@@ -5,3 +5,4 @@ features:
   where: classsubtype = 10
 stroke: none
 fill: "#C0C0C0"
+preserve: true

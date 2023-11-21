@@ -19,6 +19,7 @@ opacity: 0.5
 fill: none
 stroke: "#008800"
 stroke-width: 0.4
+preserve: true
 RestrictedArea:
   stroke: "#777777"
   stroke-width: 0.8

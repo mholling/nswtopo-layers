@@ -19,10 +19,12 @@ Perennial:
   fill: "#B3E6E4"
   stroke: none
   mask: true
+  preserve: true
 outline Perennial:
   stroke: "#4985DF"
   stroke-width: 0.24
   fill: none
+  preserve: false
 [NonPerennial, MainlyDry]:
   stroke: "#4985DF"
   stroke-width: 0.12
